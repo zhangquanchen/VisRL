@@ -1,7 +1,7 @@
 ### model
 ## full-merged model
-model_name_or_path: Qwen/Qwen2-VL-7B-Instruct
-# model_name_or_path: /models/qwen2_vl-7b_visrl-stage1
+# model_name_or_path: Qwen/Qwen2-VL-7B-Instruct
+model_name_or_path: /models/qwen2_vl-7b_visrl-stage1
 trust_remote_code: true
 
 ### method
@@ -17,7 +17,7 @@ pref_loss: sigmoid  # choices: [sigmoid (dpo), orpo, simpo]
 # dataset: demo_rl_data_stage1
 
 # stage2 use this
-dataset: demo_rl_data_stage1
+dataset: demo_rl_data_stage2
 template: qwen2_vl
 cutoff_len: 2048
 max_samples: 10000
