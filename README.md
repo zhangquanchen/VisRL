@@ -14,7 +14,7 @@ pip install -e ".[torch,metrics]"
 
 ## Data
 ### Data preparation
-We use some of the data from VisCoT, you can download the cot data folder from [here](https://huggingface.co/datasets/deepcs233/Visual-CoT)
+We use some of the data from VisCoT, you can download the cot data folder from [here](https://huggingface.co/datasets/deepcs233/Visual-CoT).
 
 After downloading the data, place it in the corresponding directory and use scripts under `preprocess` to construct the SFT data and perform the initial processing of the RL data. Note that the RL data needs to be further processed using `data_gen` to generate the complete dataset.
 
