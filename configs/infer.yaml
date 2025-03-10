@@ -1,0 +1,6 @@
+#model_name_or_path: Qwen/Qwen2-VL-7B-Instruct
+## full-merged model
+model_name_or_path: models/qwen2_vl-7b_visrl
+template: qwen2_vl
+infer_backend: huggingface  # choices: [huggingface, vllm]
+trust_remote_code: true

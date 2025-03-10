@@ -1,0 +1,4 @@
+[console_scripts]
+lmf = visrl.cli:main
+visrl-cli = visrl.cli:main
+visrl-cli-stage2 = visrl_stage2.cli:main

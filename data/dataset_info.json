@@ -1,0 +1,34 @@
+{
+  "demo_sft_data": {
+    "file_name": "demo_sft_data_30k.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "images": "image"
+    }
+  },
+  "demo_rl_data_stage1": {
+    "file_name": "demo_rl_data_10k.json",
+    "ranking": true,
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "chosen": "chosen_step",
+      "rejected": "rejected_step",
+      "images": "images"
+    }
+  },
+  "demo_rl_data_stage2": {
+    "file_name": "demo_rl_data_10k.json",
+    "ranking": true,
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "chosen": "chosen",
+      "rejected": "rejected",
+      "chosen_step": "chosen_step",
+      "rejected_step": "rejected_step",
+      "images": "images"
+    }
+  }
+}
