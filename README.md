@@ -1,9 +1,9 @@
-# VirRL: Intention-Driven Visual Perception via Reinforced Reasoning
+# VisRL: Intention-Driven Visual Perception via Reinforced Reasoning
 ## Instruction
 Visual understanding is inherently intention-driven—humans selectively focus on different regions of a scene based on their goals. Recent advances in large multimodal models (LMMs) enable flexible expression of such intentions through natural language, allowing queries to guide visual reasoning processes. Frameworks like Visual Chain-of-Thought have demonstrated the benefit of incorporating explicit reasoning steps, where the model predicts a focus region before answering a query. However, existing approaches rely heavily on supervised training with annotated intermediate bounding boxes, which severely limits scalability due to the combinatorial explosion of intention-region pairs. To overcome this limitation, we propose VisRL, the first framework that applies reinforcement learning (RL) to the problem of intention-driven visual perception. VisRL optimizes the entire visual reasoning process using only reward signals. By treating intermediate focus selection as a internal decision optimized through trial-and-error, our method eliminates the need for costly region annotations while aligning more closely with how humans learn to perceive the world. Extensive experiments across multiple benchmarks show that VisRL consistently outperforms strong baselines, demonstrating both its effectiveness and its strong generalization across different LMMs.
 
 ## Method overview
-<img src="assets/pipeline.png" alt="drawing" width="500"/>
+<img src="assets/pipeline.png" alt="drawing" width="1000"/>
 
 ## Env Setup
 ```bash
