@@ -21,7 +21,7 @@ After downloading the data, place it in the corresponding directory and use scri
 ### Data Generation
 As shown in the figure, we give the pipeline for self-evolution data generation! You can simply use scripts under `data_gen` to get preference data from VQA. Specifically, first using `generate.py` and then `filter.py`.
 
-<img src="assets/data_gen.png" alt="drawing" width="300"/>
+<img src="assets/data_gen.png" alt="drawing" width="400"/>
 
 * Remark: After dataset preparation and generation, you can place the data (both image and json files) under `data`, change the `dataset_info.json` in certain format. (We have already give you some examples demo.)
 
