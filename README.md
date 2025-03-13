@@ -66,8 +66,20 @@ API_PORT=8000 visrl-cli api configs/infer.yaml
 1. We following the Visual-CoT to conduct the eval of both performance and detection ability. refer to Evaluation Part of [Visual-CoT](https://github.com/deepcs233/Visual-CoT), that is: performance in [scripts/v1_5/eval/cot_benchmark.sh, scripts/v1_5/eval/cot_score.sh], detection in [tools/cot_detection_get_result.py, scripts/v1_5/eval/refcoco.sh], etc..
 2. For qualitative results, you can refer to `infer.py` in `viscot_infer` to load the ckpt and shown how the performance.
 
-## Acknowledgement
+## Acknowledgements
 This repo is changed from [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory). 
 The repo also benifits form [Visual-CoT](https://github.com/deepcs233/Visual-CoT), [LLaVA](https://github.com/haotian-liu/LLaVA)
 
 Thanks for their wonderful works.
+
+## Bibtex
+If you find OPA-DPO helpful for your work, please cite
+
+```
+@article{chen2025visrl,
+  title={VisRL: Intention-Driven Visual Perception via Reinforced Reasoning},
+  author={Chen, Zhangquan and Luo, Xufang and Li, Dongsheng},
+  journal={arXiv preprint arXiv:2503.07523},
+  year={2025}
+}
+```
