@@ -73,7 +73,7 @@ The repo also benifits form [Visual-CoT](https://github.com/deepcs233/Visual-CoT
 Thanks for their wonderful works.
 
 ## Bibtex
-If you find OPA-DPO helpful for your work, please cite
+If you find VisRL helpful for your work, please cite
 
 ```
 @article{chen2025visrl,
