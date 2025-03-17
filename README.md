@@ -9,6 +9,7 @@ Visual understanding is inherently intention-driven—humans selectively focus o
 
 ## Env Setup
 ```bash
+git clone https://github.com/zhangquanchen/VisRL.git
 cd VisRL
 conda create -n visrl python=3.10
 pip install -e ".[torch,metrics]"
